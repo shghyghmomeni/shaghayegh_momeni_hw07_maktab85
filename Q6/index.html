@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 6</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        <section class="form-title">
+          <h1>Student Registeration Form</h1>
+        </section>
+        <section class="form-body">
+          <div class="input-divs">
+            <label for="first-name-input">Firstname:</label><br />
+            <input
+              id="first-name-input"
+              type="text"
+              placeholder="Firstname"
+              required
+              pattern="[A-Za-z]"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="middle-name-input">Middlename:</label><br />
+            <input
+              id="middle-name-input"
+              type="text"
+              placeholder="Middlename"
+              required
+              pattern="[A-Za-z]"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="last-name-input">Lastname:</label><br />
+            <input
+              id="last-name-input"
+              type="text"
+              placeholder="Lastname"
+              required
+              pattern="[A-Za-z]"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="Course-input">Course:</label>
+            <select id="Course-input">
+              <option>Cource</option>
+              <option>math</option>
+            </select>
+          </div>
+          <div class="input-divs" id="radio-btn-input">
+            <label>Gender:</label><br />
+            <div>
+              <div class="gender-type-div">
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label>
+              </div>
+              <div class="gender-type-div">
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label>
+              </div>
+
+              <div class="gender-type-div">
+                <input type="radio" id="other" name="gender" value="Other" />
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-divs">
+            <label for="first-name-input">Phone:</label><br />
+            <input id="phone-code" type="text" value="+91" readonly />
+            <input
+              id="phone-number"
+              type="text"
+              placeholder="Phone no"
+              pattern="[0-9]{10}"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="address">Current Address:</label><br />
+            <textarea id="address" placeholder="Current Address"></textarea>
+          </div>
+          <div class="input-divs">
+            <label for="email-input">Email:</label><br />
+            <input
+              id="email-input"
+              type="email"
+              placeholder="Enter Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="pass-input">Password:</label><br />
+            <input
+              id="pass-input"
+              type="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="input-divs">
+            <label for="retype-pass-input">Re-type Password:</label><br />
+            <input
+              id="retype-pass-input"
+              type="password"
+              placeholder="Retype Password"
+            />
+          </div>
+        </section>
+        <section class="form-btn">
+          <button type="submit">Register</button>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>

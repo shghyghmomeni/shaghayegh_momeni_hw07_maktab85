@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #add8e6;
+  width: 700px;
+  padding: 3%;
+  border-radius: 3px;
+}
+.form-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  border-bottom: 1px solid white;
+  padding-bottom: 5%;
+}
+
+.input-divs {
+  margin: 3% 0;
+}
+.input-divs label {
+  font-size: 14px;
+}
+.input-divs input,
+.input-divs textarea {
+  width: 100%;
+  height: 42px;
+  margin: 1% 0;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding-left: 2%;
+}
+.input-divs input:focus,
+.input-divs textarea:focus {
+  outline: none;
+}
+.input-divs select {
+  width: 80px;
+  height: 24px;
+}
+.input-divs select:focus {
+  outline: none;
+}
+
+#radio-btn-input {
+  width: 18px;
+}
+#radio-btn-input div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.gender-type-div {
+  margin-right: 20px;
+}
+#address {
+  padding: 2%;
+  height: 100px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#address::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-btn button {
+  width: 100%;
+  height: 42px;
+  margin: 1% 0;
+  border: none;
+  background-color: #56b35f;
+  border-radius: 3px;
+  color: white;
+}
+.form-btn button:hover {
+}
