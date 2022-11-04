@@ -1,0 +1,80 @@
+@font-face {
+  font-family: yekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANYekanRegular.ttf");
+}
+body {
+  font-family: yekan !important;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5% 8%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  row-gap: 20px;
+}
+header h1 {
+  text-align: center;
+}
+header video {
+  height: 50vh;
+}
+hr {
+  margin-top: 2%;
+}
+main {
+  margin: 5% 0;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filters select,
+.filters button {
+  width: 160px;
+  height: 34px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.filters button {
+  background-color: #7e56da;
+  color: white;
+  border: none !important;
+}
+table {
+  width: 100%;
+  margin-top: 3%;
+  text-align: center;
+  border-collapse: collapse !important;
+}
+table tr:nth-child(even) {
+  background-color: #f9fbfc;
+}
+table th {
+  font-size: 13px;
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+}
+table td {
+  padding: 20px 10px;
+  font-size: 13px;
+}
+table button {
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: #7e56da;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+table img {
+  vertical-align: middle;
+  width: 150px;
+  border-radius: 10px;
+}
